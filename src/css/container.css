@@ -1,0 +1,16 @@
+.container{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+@media only screen and (max-width: 720px) {
+    .container{
+        flex-direction: column;
+        flex-wrap:nowrap;
+        margin: 20px;
+    }
+  }

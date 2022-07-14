@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{margin:0; padding:0; box-sizing:'border-box'}
+
+body {
+    font-family: 'Lato';
+  }
+
+.postCard{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px 4px 4px 4px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    position: relative;
+    width: 400px;
+    cursor: pointer;
+}
+
+.meta{
+    padding: 24px;
+    padding-top: 0;
+}
+
+.cardImage{
+    height: 200px; 
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.imageFilter{
+    height: 200px; 
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    position: absolute;
+}
+
+.learnMore{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blueSvg{
+    margin-top: 16px;
+    margin-bottom: 12px;
+    margin-right: 4px;
+}
+
+.yellowSvg{
+    margin-top: 16px;
+    margin-bottom: 12px;
+    margin-right: 4px;
+}
+
+.title{
+    font-size: 1em;
+    font-weight: 900;
+    color: #1a1a1a;
+    margin-bottom: 28px;
+}
+
+.description{
+    font-size: 0.57em;
+    font-weight: 300;
+    color: #999999;
+    margin-bottom: 28px;
+}
+
+.bottomData{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameRole{
+    font-size: 0.675em;
+    font-weight: 400;
+    color: #999999;
+    margin: 0px;
+}
+
+.date{
+    font-size: 0.675em;
+    font-weight: 400;
+    color: #999999;
+    margin: 0px;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .postCard{
+        margin: auto;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+  }
