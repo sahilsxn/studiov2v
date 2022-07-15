@@ -19,7 +19,7 @@ const Card = ({thumbnail, title, content, name, role, date}) => {
 
   return (
     <div className='postCard' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-        <div style={{position: 'relative'}}>
+        <div style={{position: 'relative', height:'200px'}}>
             {hover && <div className='imageFilter'></div>}
             {hover && <p className='learnMore'>Learn More</p>}
             <img className='cardImage' src={thumbnail} alt=''/> <br/>
