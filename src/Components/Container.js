@@ -66,7 +66,7 @@ const Container = () => {
         )
       })}
     {modal && <Modal modal={modal} hideModal={hideModal}>
-      {loader && <Lottie options={defaultOptions} height={56} width={56}/>}
+      {loader && <div className='lottie'><Lottie options={defaultOptions} height={56} width={56}/></div>}
       {Object.keys(modalData).length>0 && 
       <div>
         <div>
